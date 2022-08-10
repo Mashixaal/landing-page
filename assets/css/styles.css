@@ -1,3 +1,9 @@
+@media screen and (min-width: 425px) {
+    .sm-none {
+        display: none;
+    }
+}
+    
 .body {
     margin: 0%;
 }
@@ -6,8 +12,8 @@
     width: 100;
 }
 
-.main {
-    padding: 08px;
+.font-comfortaa {
+    font-family: "Confortaa", cursive;
 }
 
 .bg-orange {
@@ -18,12 +24,21 @@
     color: white;
 }
 
+.margin {
+    margin-top: auto;
+}
+
+.main {
+    padding: 08px;
+}
+
 @media screen and (max-width: 400px) {}
     .sm-bg-mobile {
 
-        background-color: #acc8e5;
+        background-color: #e67b13;
     }
 
 .dialog-wrapper {
     display: none !important;
 }
+
