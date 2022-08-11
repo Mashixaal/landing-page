@@ -58,6 +58,10 @@
     display: none;
 }
 
+.grid {
+    display: grid;
+}
+
 .justify-center {
     justify-content: center;
 }
@@ -68,6 +72,14 @@
 
 .flex-col {
     flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
 }
 
 .m-0 {
