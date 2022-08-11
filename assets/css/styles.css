@@ -1,11 +1,33 @@
-@media screen and (min-width: 425px) {
-    .sm-none {
-        display: none;
-    }
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
-    
+
+.margin {
+    margin: -50;
+}
+
 .body {
     margin: 0%;
+}
+
+.bg-img-mobile {
+    background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1…e/e80cd60dcd835355a75dc959/pexelsphoto219014.jpeg
+    );
+}
+
+.image-1 {
+    background-image: linear-gradient(0deg, rgba(29,34,40,0.65),
+    rgba(29,34,40,0.65)), url(//images01.nicepage.com/a1389d7…/e80cd60…/pexelsphoto219014.jpeg);
+    min-height: 376px;
+    background-position: 50% 50%;
+}
+
+.u-body {
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .header-img {
@@ -24,21 +46,56 @@
     color: white;
 }
 
-.margin {
-    margin-top: auto;
+.bg-black {
+    background-color: #1d2228;
 }
 
-.main {
-    padding: 08px;
+.bg-black-100 {
+    background-color: #292d33;
 }
 
-@media screen and (max-width: 400px) {}
-    .sm-bg-mobile {
-
-        background-color: #e67b13;
-    }
-
-.dialog-wrapper {
-    display: none !important;
+.hidden {
+    display: none;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.mx-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.font {
+    font-family: auto;
+}
+
+.border-none {
+    border-style: none;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+.styled {
+    border: 0rem;
+}
