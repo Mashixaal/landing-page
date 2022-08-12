@@ -1,11 +1,7 @@
-@media screen and (min-width: 425px) {
-    .sm-none {
-        display: none;
-    }
+
+
+@media screen and (max-width: 768px) {
+
 }
+ 
 
-@media screen and (max-width: 400px) {}
-    .sm-bg-mobile {
-
-        background-color: #e67b13;
-    }
